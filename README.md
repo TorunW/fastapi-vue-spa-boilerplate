@@ -16,8 +16,12 @@ cd fastapi-vue-spa-boilerplate
 # Backend
 cd backend && source .venv/bin/activate && uvicorn app.main:app --reload
 
-# Frontend  
+# Frontend
 cd frontend && pnpm dev
+
+# E2E testing
+cd frontend && pnpm test:e2e
+
 ```
 
 - Frontend: http://localhost:3000
